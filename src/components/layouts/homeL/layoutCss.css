@@ -1,0 +1,27 @@
+.lContainer{
+ position: relative;
+}
+
+.blackL{
+  height: 3rem;
+  width: 100%;
+  background-color: black;
+}
+
+.redL {
+  height: 4rem;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 0.5rem;
+}
+
+.fCircle{
+  width: 6rem;
+  height: 6rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 1rem solid black;
+  position: absolute;
+  left: 45%;
+  bottom: 1%;
+}

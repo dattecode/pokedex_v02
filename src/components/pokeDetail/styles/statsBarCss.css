@@ -1,0 +1,25 @@
+
+.contStatDetail{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statUl{
+  width: 80%;
+}
+
+.barProgress{
+  background-color: #37435770;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+  height: 1rem;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.progressFill{
+  background-color: #FFD700;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+
+
+.containerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 3rem;
+}

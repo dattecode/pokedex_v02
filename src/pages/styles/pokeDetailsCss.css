@@ -1,0 +1,258 @@
+
+.pokeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btnHomeDes{
+  width: 6rem;
+  height: 2rem;
+  margin: 2rem;
+  background-color: red;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.linkHome{
+  color: inherit;
+}
+
+.imgContDet{
+  margin-top: 3rem;
+  width: 15rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nameContDet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.barGrayName{
+  width:40%;
+  height: 0.2rem;
+  border-radius: 2rem;
+  background-color: gray;
+}
+
+.descContant{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.mapCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.desMapCont{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.typeBox{
+  padding: 0.4rem;
+  width: 7rem;
+  text-align: center;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.skill{
+  background-color: rgba(128, 128, 128, 0.3);
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+  width: 7rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+/* bg pokemons con gradiants */
+
+.normal {
+  background: linear-gradient(to bottom, #cb98a7, #73525d);
+}
+
+.fighting {
+  background: linear-gradient(to bottom, #ef6139, #ef6139);
+}
+
+.flying {
+  background: linear-gradient(to bottom, #93b2c7, #93b2c7);
+}
+
+.poison {
+  background: linear-gradient(to bottom, #9b69da, #5e2d88);
+}
+
+.ground {
+  background: linear-gradient(to bottom, #6e491f, #a7702d);
+}
+
+.rock {
+  background: linear-gradient(to bottom, #8b3e22, #48180a);
+}
+
+.bug {
+  background: linear-gradient(to bottom, #3b9852, #1c4b27);
+}
+
+.ghost {
+  background: linear-gradient(to bottom, #906791, #32336b);
+}
+
+.steel {
+  background: linear-gradient(to bottom, #43bd94, #60756e);
+}
+
+.fire {
+  background: linear-gradient(to bottom, #fd4d5a, #ab1e24);
+}
+
+.water {
+  background: linear-gradient(to bottom, #85a8fc, #1552e1);
+}
+
+.grass {
+  background: linear-gradient(to bottom, #26cc50, #157b3c);
+}
+
+.electric {
+  background: linear-gradient(to bottom, #fafb71, #e4e22d);
+}
+
+.psychic {
+  background: linear-gradient(to bottom, #f71c90, #ac2a6a);
+}
+
+.ice {
+  background: linear-gradient(to bottom, #d6f1fa, #84d3f4);
+}
+
+.dragon {
+  background: linear-gradient(to bottom, #60ccd9, #458b95);
+}
+
+.dark {
+  background: linear-gradient(to bottom, #5a5979, #050706);
+}
+
+.fairy {
+  background: linear-gradient(to bottom, #eb1269, #eb1269);
+}
+
+.unknown {
+  background: linear-gradient(to bottom, #35433e, #45665b);
+}
+
+.shadow {
+  background: linear-gradient(to bottom, #301645, #463a55);
+}
+
+/*---------------------------------borders card*/
+
+.normal-border {
+  border: 7px solid #73525d;
+}
+
+.fighting-border {
+  border: 7px solid #ef6139;
+}
+
+.flying-border {
+  border: 7px solid #93b2c7;
+}
+
+.poison-border {
+  border: 7px solid #5e2d88;
+}
+
+.ground-border {
+  border: 7px solid #a7702d;
+}
+
+.rock-border {
+  border: 7px solid #48180a;
+}
+
+.bug-border {
+  border: 7px solid #1c4b27;
+}
+
+.ghost-border {
+  border: 7px solid #32336b;
+}
+
+.steel-border {
+  border: 7px solid #60756e;
+}
+
+.fire-border {
+  border: 7px solid #ab1e24;
+}
+
+.water-border {
+  border: 7px solid #1552e1;
+}
+
+.grass-border {
+  border: 7px solid #157b3c;
+}
+
+.electric-border {
+  border: 7px solid #e4e22d;
+}
+
+.psychic-border {
+  border: 7px solid #ac2a6a;
+}
+
+.ice-border {
+  border: 7px solid #84d3f4;
+}
+
+.dragon-border {
+  border: 7px solid #458b95;
+}
+
+.dark-border {
+  border: 7px solid #050706;
+}
+
+.fairy-border {
+  border: 7px solid #eb1269;
+}
+
+.unknown-border {
+  border: 7px solid #45665b;
+}
+
+.shadow-border {
+  border: 7px solid #463a55;
+}
+
+/* Css Scale mode*/

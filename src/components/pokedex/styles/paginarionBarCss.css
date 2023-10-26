@@ -1,0 +1,40 @@
+
+
+.paginationContainer{
+  margin: 3rem;
+  display: flex;
+  gap: 1rem;
+  width: 70%;
+  justify-content: center;
+}
+
+.ulBar{
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.pageLi{
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  border: 0.1rem solid gray;
+}
+
+.pageOn{
+  background-color: #DD1A1A;
+  transition: background-color 0.3s;
+}
+
+.btnPage{
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  width: 2rem;
+  border: 2px solid #DD1A1A;
+}

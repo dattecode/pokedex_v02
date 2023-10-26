@@ -1,0 +1,245 @@
+.cardContainer {
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+  transition: scale 0.4s;
+}
+
+.cardContainer:hover{
+  scale: 1.1;
+}
+
+.pokeNameCont {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pokeNameDex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.containerImgCard {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCard {
+  width: 7rem;
+}
+
+.cardContType {
+  width: 90%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 1rem;
+}
+
+.containerStatDex{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.statsItem {
+  flex-basis: calc(33.33%);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+/* bg pokemons con gradiants */
+
+.normal {
+  background: linear-gradient(to bottom, #cb98a7, #73525d);
+}
+
+.fighting {
+  background: linear-gradient(to bottom, #ef6139, #ef6139);
+}
+
+.flying {
+  background: linear-gradient(to bottom, #93b2c7, #93b2c7);
+}
+
+.poison {
+  background: linear-gradient(to bottom, #9b69da, #5e2d88);
+}
+
+.ground {
+  background: linear-gradient(to bottom, #6e491f, #a7702d);
+}
+
+.rock {
+  background: linear-gradient(to bottom, #8b3e22, #48180a);
+}
+
+.bug {
+  background: linear-gradient(to bottom, #3b9852, #1c4b27);
+}
+
+.ghost {
+  background: linear-gradient(to bottom, #906791, #32336b);
+}
+
+.steel {
+  background: linear-gradient(to bottom, #43bd94, #60756e);
+}
+
+.fire {
+  background: linear-gradient(to bottom, #fd4d5a, #ab1e24);
+}
+
+.water {
+  background: linear-gradient(to bottom, #85a8fc, #1552e1);
+}
+
+.grass {
+  background: linear-gradient(to bottom, #26cc50, #157b3c);
+}
+
+.electric {
+  background: linear-gradient(to bottom, #fafb71, #e4e22d);
+}
+
+.psychic {
+  background: linear-gradient(to bottom, #f71c90, #ac2a6a);
+}
+
+.ice {
+  background: linear-gradient(to bottom, #d6f1fa, #84d3f4);
+}
+
+.dragon {
+  background: linear-gradient(to bottom, #60ccd9, #458b95);
+}
+
+.dark {
+  background: linear-gradient(to bottom, #5a5979, #050706);
+}
+
+.fairy {
+  background: linear-gradient(to bottom, #eb1269, #eb1269);
+}
+
+.unknown {
+  background: linear-gradient(to bottom, #35433e, #45665b);
+}
+
+.shadow {
+  background: linear-gradient(to bottom, #301645, #463a55);
+}
+
+/*---------------------------------borders card*/
+
+.normal-border {
+  border: 7px solid #73525d;
+}
+
+.fighting-border {
+  border: 7px solid #ef6139;
+}
+
+.flying-border {
+  border: 7px solid #93b2c7;
+}
+
+.poison-border {
+  border: 7px solid #5e2d88;
+}
+
+.ground-border {
+  border: 7px solid #a7702d;
+}
+
+.rock-border {
+  border: 7px solid #48180a;
+}
+
+.bug-border {
+  border: 7px solid #1c4b27;
+}
+
+.ghost-border {
+  border: 7px solid #32336b;
+}
+
+.steel-border {
+  border: 7px solid #60756e;
+}
+
+.fire-border {
+  border: 7px solid #ab1e24;
+}
+
+.water-border {
+  border: 7px solid #1552e1;
+}
+
+.grass-border {
+  border: 7px solid #157b3c;
+}
+
+.electric-border {
+  border: 7px solid #e4e22d;
+}
+
+.psychic-border {
+  border: 7px solid #ac2a6a;
+}
+
+.ice-border {
+  border: 7px solid #84d3f4;
+}
+
+.dragon-border {
+  border: 7px solid #458b95;
+}
+
+.dark-border {
+  border: 7px solid #050706;
+}
+
+.fairy-border {
+  border: 7px solid #eb1269;
+}
+
+.unknown-border {
+  border: 7px solid #45665b;
+}
+
+.shadow-border {
+  border: 7px solid #463a55;
+}
+
+/* Css Scale mode*/
+
+.pokeNameDex {
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 2rem;
+}
+
+.cardContType {
+  border-top: none;
+}
