@@ -83,6 +83,10 @@ const Pokedex = () => {
   }, [pokemons]);
 
   useEffect(() => {
+    setCurrentPage(1)
+  }, [spokemon])
+
+  useEffect(() => {
     getAlltypes();
     getAllPokemon();
   }, []);
