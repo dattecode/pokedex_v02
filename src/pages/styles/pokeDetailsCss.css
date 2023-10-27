@@ -23,6 +23,40 @@
   color: inherit;
 }
 
+.containerImgs{
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgDesc{
+  width: 7.5rem;
+}
+
+.shinyContent{
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shinyText{
+  color: #eb1269;
+  border: 2px solid #ab1e24;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.imgShiny{
+  cursor: pointer;
+  width: 7rem;
+}
+
 .imgContDet{
   margin-top: 3rem;
   width: 15rem;
@@ -256,3 +290,12 @@
 }
 
 /* Css Scale mode*/
+
+
+/* query */
+
+@media (max-width: 768px) {
+  .descContant{
+    flex-direction: column;
+  }
+}

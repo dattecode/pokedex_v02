@@ -23,3 +23,11 @@
   background-color: #FFD700;
   height: 100%;
 }
+
+.titleStats{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
