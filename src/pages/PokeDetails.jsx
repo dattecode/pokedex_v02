@@ -16,7 +16,6 @@ const PokeDetails = () => {
   const { pokemonId } = useParams();
   const [isLoading, setisLoading] = useState(false);
   const [isShiny, setIsShiny] = useState(false);
-  console.log(pokeInfo);
 
   //logic
 
